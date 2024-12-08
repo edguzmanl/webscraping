@@ -1,12 +1,4 @@
-# Create a virtual environment 
-python -m venv myenv
-
-# Activate the virtual environment
-
-# Windows
-myenv\Scripts\activate
-
-pip install requests
-pip install bs4
-pip install pandas
-pip install time
+requests
+bs4
+pandas
+time
