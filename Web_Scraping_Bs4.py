@@ -44,6 +44,9 @@ Data['Productos'] = Productos
 Data['Precios'] = Precio_hoy
 Data['Imagenes'] = Imagenes
 
+# Se exportan los datos obtenidos a un archivo csv
+Data.to_csv('muebles_home_center.csv',sep=';', index=False, encoding='utf-8')
+
 
 
 
