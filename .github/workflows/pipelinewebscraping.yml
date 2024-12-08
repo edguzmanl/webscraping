@@ -32,5 +32,5 @@ jobs:
           # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
           python-version: '3.11' # optional
       - name: Run script
-        run: python WebScrap_Sel.ipynb
+        run: python Web_Scraping_Bs4.py
 
